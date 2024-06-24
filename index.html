@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #0056b3;
+        }
+        p {
+            margin: 10px 0;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p>Last updated: [Date]</p>
+        
+        <h2>Introduction</h2>
+        <p>Welcome to the Time and Space Complexity Analyzer extension. Your privacy is important to us. This privacy policy explains how we collect, use, and share your information when you use our extension.</p>
+        
+        <h2>Information We Collect</h2>
+        <p>Our extension collects the following information:</p>
+        <ul>
+            <li>Selected context from the webpage when the user clicks on the extension tab.</li>
+        </ul>
+        <p>We do not collect any personal or sensitive user data such as names, addresses, phone numbers, email addresses, financial information, health information, or authentication information.</p>
+        
+        <h2>How We Use the Information</h2>
+        <p>The information collected is used solely to analyze the selected code's time and space complexity. The selected context is sent to our backend service for processing and is not stored beyond the duration of the analysis.</p>
+        
+        <h2>Information Sharing</h2>
+        <p>We do not share any user information with third parties. The selected context is transmitted securely to our backend service, which uses the Gemini API for analysis. No data is stored or shared beyond this process.</p>
+        
+        <h2>Data Security</h2>
+        <p>All data transmissions are encrypted using modern cryptographic methods. We use HTTPS to secure data in transit and employ strong encryption methods such as RSA or AES to secure data at rest.</p>
+        
+        <h2>Permissions Justification</h2>
+        <h3>activeTab</h3>
+        <p>This permission is essential for capturing the user's selected text from the active tab and sending it to our backend for complexity analysis.</p>
+        
+        <h3>contextMenus</h3>
+        <p>This permission allows us to add an option to the right-click context menu for users to easily trigger the complexity analysis.</p>
+        
+        <h3>Storage</h3>
+        <p>This permission is required to store user preferences and settings locally, enhancing the overall user experience by providing a more personalized interaction with the extension.</p>
+        
+        <h3>Scripting</h3>
+        <p>This permission allows the extension to execute scripts in the context of web pages, essential for capturing selected text, interacting with the DOM, and displaying analysis results.</p>
+        
+        <h3>Host Permission</h3>
+        <p>The host permission with &lt;all_urls&gt; is necessary to operate on any website, ensuring compatibility with various coding platforms.</p>
+        
+        <h3>Remote Code</h3>
+        <p>Yes, we use a remote backend Node.js server to connect with the Gemini API using an API key for complexity analysis. This setup ensures accurate analysis by leveraging advanced machine learning models.</p>
+        
+        <h2>Contact Us</h2>
+        <p>If you have any questions or concerns about this privacy policy, please contact us at [Your Contact Information].</p>
+    </div>
+</body>
+</html>
